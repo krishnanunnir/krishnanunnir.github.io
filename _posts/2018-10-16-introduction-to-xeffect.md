@@ -4,6 +4,7 @@ title: Introduction to Xeffect
 ---
 
 Achieving your goals is a result of consistent practice or making a habit out of practice. Making habits is hard, that is why we need assistance in this pursuit. It is in this regard I will like to introduce Xeffect to you. Keeping track is the key to making positive life changes, this forms the core idea of Xeffect.
+
 <img src="https://miro.medium.com/max/1400/1*aLSrGxr7isF1gQjLqs6yWg.jpeg" />
 
 Xeffect is a very simple table, that is marked everyday when you complete the task. For everyday we perform the task we fill a cell in the table. The target being to fill the whole table.
