@@ -2,7 +2,7 @@
 layout: post
 title: Optimizing your github profile page
 ---
-I had originally writtent this article for reddit, so please take that into context while reading this.  
+TLDR: Readme, Demo, Good Code, Plug
 
 I am someone in the process of trying to improve my Github profile. I have seen a lot of awesome GitHub projects, which has helped me identify what is the difference between a good and great project. I hope to pass some of my insights onto you guys. To highlight these concepts I have attached my own projects where I have attempted to implement the explained concept
 ## Readme  
