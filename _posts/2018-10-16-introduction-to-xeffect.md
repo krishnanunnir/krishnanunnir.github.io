@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introduction to Xeffect
+comments: true
 ---
 
 Achieving your goals is a result of consistent practice or making a habit out of practice. Making habits is hard, that is why we need assistance in this pursuit. It is in this regard I will like to introduce Xeffect to you. Keeping track is the key to making positive life changes, this forms the core idea of Xeffect.

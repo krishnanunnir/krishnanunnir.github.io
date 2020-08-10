@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building First Contrib!
+comments: true
 ---
 #### A walkthrough the process of buidling First Contrib
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Motivation is destroying your life.
+comments: true
 ---
 
 I am someone who is actively trying to change my life, from the lethargy my life has settled into. I have spent the last few years actively searching for ‘motivation’ to make that change, which could possibly make me move from a path of ordinariness to the life of my dreams.

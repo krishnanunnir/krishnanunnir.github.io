@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using Vim as a file explorer
+comments: true
 ---
 
 I recently found out Vim can be used to go around folders, and perform operations like rename, delete and sort files like a fully fledged file explorer. Vim is intimidating, especially when you start using it for large projects, I think this feature could bridge the gap a bit.
