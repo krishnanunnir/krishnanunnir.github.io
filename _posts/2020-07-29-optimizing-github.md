@@ -2,7 +2,7 @@
 layout: post
 title: Optimizing your github profile for hiring!
 ---
-This blog covers steps you can take to optimize your Github profile.
+#### This blog covers steps you can take to optimize your Github profile.
 
 I have been using Github a bit more lately, I have seen a lot of awesome GitHub projects and some not so great ones. This has helped me to get an idea of what is the difference between a good and great project. In this blog, I want to pass those insights on to you. 
 
