@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimizing your github profile for hiring!
+title: Optimizing your github profile!
 comments: true
 ---
 #### This blog covers steps you can take to optimize your Github profile.
