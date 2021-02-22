@@ -2,7 +2,7 @@
 layout: post
 title: Motivation is destroying your life.
 comments: true
-tags: productivity
+tag: productivity
 ---
 #### A take motivation
 
