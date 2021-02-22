@@ -2,6 +2,7 @@
 layout: post
 title: Introduction to Xeffect
 comments: true
+tags: productivity
 ---
 #### Keeping better track of habits.
 
