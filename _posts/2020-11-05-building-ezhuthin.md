@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building ezhuth.in!
-description: What I learned building a social media website.
+description: Learnings from building a Malaylam social media website.
 comments: true
 ---
 

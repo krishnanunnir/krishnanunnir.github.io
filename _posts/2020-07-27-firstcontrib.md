@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building First Contrib!
-description: Thinks I learned while building first contrib.
+description: Learnings from first contrib.
 comments: true
 ---
 #### A walkthrough the process of buidling First Contrib

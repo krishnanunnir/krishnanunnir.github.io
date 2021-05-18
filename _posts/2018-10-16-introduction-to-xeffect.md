@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Xeffect
-description: Learn about Xeffect
+description: Using Xeffect as a tool to motivate yourself.
 comments: true
 tags: productivity
 ---

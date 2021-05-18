@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Motivation is destroying your life.
-description: My thoughts on motivation and discipline
+description: Motivation and discipline.
 comments: true
 tag: productivity
 ---

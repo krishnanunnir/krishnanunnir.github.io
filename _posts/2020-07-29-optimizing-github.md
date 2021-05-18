@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optimizing your github profile!
-description: How can you make your Github look better.
+description: Steps you can take to improve your Github profile.
 comments: true
 ---
 #### This blog covers steps you can take to optimize your Github profile.

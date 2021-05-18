@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-description: First blog post
+description: First blog post.
 comments: true
 ---
 #### Intro
