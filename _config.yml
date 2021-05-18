@@ -97,3 +97,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+timezone: Asia/Kolkata
