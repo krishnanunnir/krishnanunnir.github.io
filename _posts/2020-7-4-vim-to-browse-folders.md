@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using Vim as a file explorer
+description: How to navigate through ssh session in a more easier way
 comments: true
 ---
 #### How to use vim as a file explorer?

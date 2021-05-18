@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introduction to Xeffect
+description: Learn about Xeffect
 comments: true
 tags: productivity
 ---

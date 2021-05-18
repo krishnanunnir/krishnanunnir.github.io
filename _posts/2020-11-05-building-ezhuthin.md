@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building ezhuth.in!
+description: What I learned building a social media website.
 comments: true
 ---
 
