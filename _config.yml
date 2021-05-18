@@ -15,6 +15,19 @@ avatar: https://avatars1.githubusercontent.com/u/13539828?s=460&u=16f699a7ef0afe
 # Flags below are optional
 #
 
+author:
+  name: Krishnanunni R
+  twitter: bizzaretor
+  image: waldek.jpg
+twitter:
+  username: bizzaretor
+  card: summary_large_image
+social:
+  name: Krishnanunni R
+  links:
+    - https://twitter.com/bizzaretor
+    - https://www.linkedin.com/in/krishnanunnir
+    - https://github.com/krishnanunnir
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
