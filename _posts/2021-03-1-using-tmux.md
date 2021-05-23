@@ -5,6 +5,8 @@ description: how to run process in background in remote machine
 comments: true
 ---
 
+Based on [this](https://twitter.com/bizzaretor/status/1366099878296883213) twitter thread I wrote.
+
 Imagine you have a setup with multiple monitors, you will try to organise your applications on different monitors based on their usage type, maybe you have all entertainment apps in one monitor and all the work related apps in another monitor.
 
 Now imagine if you remove the other monitors, and you just have a single monitor, in order to maintain a separation of ideas, you start using virtual workspaces in your machine - in a way replicating multiple monitors.
