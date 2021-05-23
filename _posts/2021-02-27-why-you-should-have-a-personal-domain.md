@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why and how you can setup should your own domain.
+title: Getting a personal domain - pros and hows.
 description: cheapest ways to set up your own domain.
 comments: true
 ---
