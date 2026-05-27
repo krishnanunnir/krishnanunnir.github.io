@@ -31,7 +31,6 @@ HEADER = """<!DOCTYPE html>
         <div class="site-name"><a href="/">Krishnanunni R</a></div>
         <nav>
           <a href="/blog/">Blog</a>
-          <a href="https://cooking.bizzaretor.com">Cooking</a>
         </nav>
       </div>
     </header>
