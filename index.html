@@ -1,18 +1,70 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishnanunni R</title>
+  <meta name="description" content="Engineer, open source builder, and writer" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="nav-inner">
+        <div class="site-name"><a href="/">Krishnanunni R</a></div>
+        <nav>
+          <a href="/blog/">Blog</a>
+          <a href="https://cooking.bizzaretor.com">Cooking</a>
+          <a href="/about/">About</a>
+        </nav>
       </div>
+    </header>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    <main>
+      <section class="hero">
+        <h1>Hey, I'm Krishnanunni.</h1>
+        <p class="tagline">I build open source tools and write about making things.</p>
+        <p class="bio">
+          By day I'm an engineer. By night I build projects like 
+          <a href="https://ezhuth.in">Ezhuth.in</a> — a social platform for Malayalam,
+          <a href="https://github.com/krishnanunnir/firstcontrib">First Contrib</a> — helping people
+          make their first open source contribution, and whatever else catches my curiosity. 
+          I also <a href="/cooking/">cook</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-heading">Projects</h2>
+        <div class="projects">
+          <div class="project-card">
+            <h3><a href="https://ezhuth.in">Ezhuth.in</a></h3>
+            <p>A social media platform built for Malayalam speakers — writing, sharing, community.</p>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/krishnanunnir/firstcontrib">First Contrib</a></h3>
+            <p>Helping developers make their first open source contribution with guided workflows.</p>
+          </div>
+          <div class="project-card">
+            <h3>Reddit Compilation Maker</h3>
+            <p>A tool to create video compilations from Reddit threads automatically.</p>
+          </div>
+          <div class="project-card">
+            <h3><a href="/blog/">Writing</a></h3>
+            <p>Thoughts on productivity, career strategy, open source, and building in public.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="https://github.com/krishnanunnir" title="GitHub"><span class="svg-icon github"></span></a>
+        <a href="https://twitter.com/bizzaretor" title="Twitter"><span class="svg-icon twitter"></span></a>
+        <a href="https://www.linkedin.com/in/krishnanunnir" title="LinkedIn"><span class="svg-icon linkedin"></span></a>
+        <a href="mailto:hello@bizzaretor.com" title="Email"><span class="svg-icon email"></span></a>
+      </div>
+      <div>&copy; Krishnanunni R</div>
+    </footer>
+  </div>
+</body>
+</html>

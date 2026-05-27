@@ -11,9 +11,9 @@ I recently found out Vim can be used to go around folders, and perform operation
 
 This feature is also pretty easy to use, just open the folder like you would open a text file with vim.
 
-``` vim <folder-name> ```  
+`vim <folder-name>`
 
 
 Yes! that is it.
 
-<img src="../images/vim-folder.png" />
+<img src="/images/vim-folder.png" />
