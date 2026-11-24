@@ -3,45 +3,60 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
   <title>Using Vim as a file explorer – Krishnanunni R</title>
   <meta name="description" content="Using Vim to navigate through a linux filesystem." />
+  <link rel="alternate" type="application/rss+xml" title="Krishnanunni R" href="/feed.xml" />
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-  <div class="container">
-    <header class="site-header">
-      <div class="nav-inner">
-        <div class="site-name"><a href="/">Krishnanunni R</a></div>
-        <nav>
-          <a href="/blog/">Blog</a>
-        </nav>
-      </div>
-    </header>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="site-name" href="/">Krishnanunni R</a>
+    <nav aria-label="Site">
+      <a href="/blog/">Writing</a>
+      <a href="/#projects">Projects</a>
+    </nav>
+  </header>
 
-    <main>
-      <article class="post">
-        <h1>Using Vim as a file explorer</h1>
-        <div class="date">July 4, 2020</div>
-        <div class="entry">
-          <h4>How to use vim as a file explorer?</h4>
+  <main id="main">
+    <article class="post">
+      <h1 style="view-transition-name:p-vim-to-browse-folders">Using Vim as a file explorer</h1>
+      <p class="meta">July 4, 2020 · 1 min read</p>
+      <div class="entry rise">
+        <h4>How to use vim as a file explorer?</h4>
 <p>I recently found out Vim can be used to go around folders, and perform operations like rename, delete and sort files like a fully fledged file explorer. Vim is intimidating, especially when you start using it for large projects, I think this feature could bridge the gap a bit.</p>
 <p>This feature is also pretty easy to use, just open the folder like you would open a text file with vim.</p>
 <p><code>vim &lt;folder-name&gt;</code></p>
 <p>Yes! that is it.</p>
 <p><img src="/images/vim-folder.png" /></p>
-        </div>
-      </article>
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-links">
-        <a href="https://github.com/krishnanunnir" title="GitHub"><span class="svg-icon github"></span></a>
-        <a href="https://twitter.com/bizzaretor" title="Twitter"><span class="svg-icon twitter"></span></a>
-        <a href="https://www.linkedin.com/in/krishnanunnir" title="LinkedIn"><span class="svg-icon linkedin"></span></a>
-        <a href="mailto:hello@bizzaretor.com" title="Email"><span class="svg-icon email"></span></a>
       </div>
-      <div>&copy; Krishnanunni R</div>
-    </footer>
+      <nav class="post-nav" aria-label="More posts"><a class="older" href="/blog/posts/Hello-World.html"><span>Older</span>Hello World</a><a class="newer" href="/blog/posts/firstcontrib.html"><span>Newer</span>Building First Contrib!</a></nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <a href="mailto:hello@bizzaretor.com">hello@bizzaretor.com</a>
+    <a href="https://github.com/krishnanunnir">GitHub</a>
+    <a href="https://twitter.com/bizzaretor">Twitter</a>
+    <a href="https://www.linkedin.com/in/krishnanunnir">LinkedIn</a>
+    <a href="/feed.xml">RSS</a>
+  </footer>
+
+  <!-- A pencil figure who walks to the flag as you scroll. Pure CSS; hidden where unsupported. -->
+  <div class="walker" aria-hidden="true">
+    <svg class="flag" viewBox="0 0 20 40"><path d="M4 40V3"/><path d="M4 4l13 5-13 6"/></svg>
+    <svg class="person" viewBox="0 0 40 60">
+      <filter id="pencil"><feTurbulence baseFrequency=".9" numOctaves="2" seed="2"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter>
+      <g filter="url(#pencil)">
+        <path class="arm back" d="M20 22v13"/>
+        <path class="leg back" d="M20 36v20h4"/>
+        <path d="M20 17v19"/>
+        <circle cx="20" cy="10" r="7"/>
+        <path class="leg front" d="M20 36v20h4"/>
+        <path class="arm front" d="M20 22v13"/>
+      </g>
+    </svg>
   </div>
 </body>
 </html>

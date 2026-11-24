@@ -3,27 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
   <title>Why I am building a Malayalam social media. – Krishnanunni R</title>
   <meta name="description" content="The need for a social media website in Malayalam." />
+  <link rel="alternate" type="application/rss+xml" title="Krishnanunni R" href="/feed.xml" />
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-  <div class="container">
-    <header class="site-header">
-      <div class="nav-inner">
-        <div class="site-name"><a href="/">Krishnanunni R</a></div>
-        <nav>
-          <a href="/blog/">Blog</a>
-        </nav>
-      </div>
-    </header>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="site-name" href="/">Krishnanunni R</a>
+    <nav aria-label="Site">
+      <a href="/blog/">Writing</a>
+      <a href="/#projects">Projects</a>
+    </nav>
+  </header>
 
-    <main>
-      <article class="post">
-        <h1>Why I am building a Malayalam social media.</h1>
-        <div class="date">February 16, 2021</div>
-        <div class="entry">
-          <p>Malayalam content has largely been restricted to websites like Facebook, Youtube and TikTok.  These platforms have their own issues and I am trying to solve few of them with http://ezhuth.in.</p>
+  <main id="main">
+    <article class="post">
+      <h1 style="view-transition-name:p-need-for-ezhuthin">Why I am building a Malayalam social media.</h1>
+      <p class="meta">February 16, 2021 · 1 min read</p>
+      <div class="entry rise">
+        <p>Malayalam content has largely been restricted to websites like Facebook, Youtube and TikTok.  These platforms have their own issues and I am trying to solve few of them with http://ezhuth.in.</p>
 <ol>
 <li>
 <p>Facebook has a lot of Malayalam discussions and literature but they are lost past a few days, and it is very difficult to rediscover this content. Basically we are losing out on quality content once Facebook has decided it is not viable to show a post algorithmically.</p>
@@ -44,19 +45,33 @@ We can learn from China on this, even though it is a population that is largely 
 </li>
 </ol>
 <p>I think we need a new stage in this internet development and that will be localisation according to me.</p>
-        </div>
-      </article>
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-links">
-        <a href="https://github.com/krishnanunnir" title="GitHub"><span class="svg-icon github"></span></a>
-        <a href="https://twitter.com/bizzaretor" title="Twitter"><span class="svg-icon twitter"></span></a>
-        <a href="https://www.linkedin.com/in/krishnanunnir" title="LinkedIn"><span class="svg-icon linkedin"></span></a>
-        <a href="mailto:hello@bizzaretor.com" title="Email"><span class="svg-icon email"></span></a>
       </div>
-      <div>&copy; Krishnanunni R</div>
-    </footer>
+      <nav class="post-nav" aria-label="More posts"><a class="older" href="/blog/posts/building-ezhuthin.html"><span>Older</span>Building ezhuth.in!</a><a class="newer" href="/blog/posts/why-you-should-have-a-personal-domain.html"><span>Newer</span>Getting a personal domain - pros and hows.</a></nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <a href="mailto:hello@bizzaretor.com">hello@bizzaretor.com</a>
+    <a href="https://github.com/krishnanunnir">GitHub</a>
+    <a href="https://twitter.com/bizzaretor">Twitter</a>
+    <a href="https://www.linkedin.com/in/krishnanunnir">LinkedIn</a>
+    <a href="/feed.xml">RSS</a>
+  </footer>
+
+  <!-- A pencil figure who walks to the flag as you scroll. Pure CSS; hidden where unsupported. -->
+  <div class="walker" aria-hidden="true">
+    <svg class="flag" viewBox="0 0 20 40"><path d="M4 40V3"/><path d="M4 4l13 5-13 6"/></svg>
+    <svg class="person" viewBox="0 0 40 60">
+      <filter id="pencil"><feTurbulence baseFrequency=".9" numOctaves="2" seed="2"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter>
+      <g filter="url(#pencil)">
+        <path class="arm back" d="M20 22v13"/>
+        <path class="leg back" d="M20 36v20h4"/>
+        <path d="M20 17v19"/>
+        <circle cx="20" cy="10" r="7"/>
+        <path class="leg front" d="M20 36v20h4"/>
+        <path class="arm front" d="M20 22v13"/>
+      </g>
+    </svg>
   </div>
 </body>
 </html>

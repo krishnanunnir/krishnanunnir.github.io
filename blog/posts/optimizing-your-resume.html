@@ -3,27 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
   <title>Optimizing Your Resume – Krishnanunni R</title>
   <meta name="description" content="Key tips to make your resume stand out and get noticed by recruiters." />
+  <link rel="alternate" type="application/rss+xml" title="Krishnanunni R" href="/feed.xml" />
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-  <div class="container">
-    <header class="site-header">
-      <div class="nav-inner">
-        <div class="site-name"><a href="/">Krishnanunni R</a></div>
-        <nav>
-          <a href="/blog/">Blog</a>
-        </nav>
-      </div>
-    </header>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="site-name" href="/">Krishnanunni R</a>
+    <nav aria-label="Site">
+      <a href="/blog/">Writing</a>
+      <a href="/#projects">Projects</a>
+    </nav>
+  </header>
 
-    <main>
-      <article class="post">
-        <h1>Optimizing Your Resume</h1>
-        <div class="date">June 2, 2021</div>
-        <div class="entry">
-          <p>Your resume has about 6 seconds to make an impression. Here's how to make them count.</p>
+  <main id="main">
+    <article class="post">
+      <h1 style="view-transition-name:p-optimizing-your-resume">Optimizing Your Resume</h1>
+      <p class="meta">June 2, 2021 · 1 min read</p>
+      <div class="entry rise">
+        <p>Your resume has about 6 seconds to make an impression. Here's how to make them count.</p>
 <h3>Structure matters</h3>
 <ol>
 <li>Your resume must have two mandatory sections — <strong>work experience</strong> and <strong>projects</strong>. Education and skills are optional.</li>
@@ -35,19 +36,33 @@
 <li>Projects are your greatest strength — they prove you can build things. Link to live demos and repos.</li>
 </ol>
 <p>A resume isn't a biography. It's an ad. Make every line earn its place.</p>
-        </div>
-      </article>
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-links">
-        <a href="https://github.com/krishnanunnir" title="GitHub"><span class="svg-icon github"></span></a>
-        <a href="https://twitter.com/bizzaretor" title="Twitter"><span class="svg-icon twitter"></span></a>
-        <a href="https://www.linkedin.com/in/krishnanunnir" title="LinkedIn"><span class="svg-icon linkedin"></span></a>
-        <a href="mailto:hello@bizzaretor.com" title="Email"><span class="svg-icon email"></span></a>
       </div>
-      <div>&copy; Krishnanunni R</div>
-    </footer>
+      <nav class="post-nav" aria-label="More posts"><a class="older" href="/blog/posts/how-to-get-hired.html"><span>Older</span>How to Get Hired</a><a class="newer" href="/blog/posts/cold-emailing.html"><span>Newer</span>Cold Emailing for Jobs</a></nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <a href="mailto:hello@bizzaretor.com">hello@bizzaretor.com</a>
+    <a href="https://github.com/krishnanunnir">GitHub</a>
+    <a href="https://twitter.com/bizzaretor">Twitter</a>
+    <a href="https://www.linkedin.com/in/krishnanunnir">LinkedIn</a>
+    <a href="/feed.xml">RSS</a>
+  </footer>
+
+  <!-- A pencil figure who walks to the flag as you scroll. Pure CSS; hidden where unsupported. -->
+  <div class="walker" aria-hidden="true">
+    <svg class="flag" viewBox="0 0 20 40"><path d="M4 40V3"/><path d="M4 4l13 5-13 6"/></svg>
+    <svg class="person" viewBox="0 0 40 60">
+      <filter id="pencil"><feTurbulence baseFrequency=".9" numOctaves="2" seed="2"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter>
+      <g filter="url(#pencil)">
+        <path class="arm back" d="M20 22v13"/>
+        <path class="leg back" d="M20 36v20h4"/>
+        <path d="M20 17v19"/>
+        <circle cx="20" cy="10" r="7"/>
+        <path class="leg front" d="M20 36v20h4"/>
+        <path class="arm front" d="M20 22v13"/>
+      </g>
+    </svg>
   </div>
 </body>
 </html>
